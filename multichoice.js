@@ -107,7 +107,7 @@ switch (true) {
         console.log("This is the last push!");
         break;
     default:
-        console.log("This is not a fruit, this a chocolate cake");
+        console.log("You're there. Well done!");
 
 }
 // ANSWER: it prints    Still a long way to go
