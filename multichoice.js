@@ -97,13 +97,13 @@ switch (true) {
     case (Percentage_Complete <= 30):
         console.log("Still a long way to go");
         break;
-    case (Percentage_Complete >= 51):
+    case (Percentage_Complete <= 51):
         console.log("Slowly getting there");
         break;
-    case (Percentage_Complete >= 81):
+    case (Percentage_Complete <= 81):
         console.log("You can do it!");
         break;
-    case (Percentage_Complete >= 99):
+    case (Percentage_Complete <= 99):
         console.log("This is the last push!");
         break;
     default:
